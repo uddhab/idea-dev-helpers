@@ -24,8 +24,12 @@
   <depends>com.intellij.modules.lang</depends>
   -->
 
+  <depends>com.jetbrains.twig</depends>
+  <depends>com.jetbrains.php</depends>
+
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
+    <gotoDeclarationHandler implementation="GotoDeclarationExtension" />
   </extensions>
 
   <actions>
