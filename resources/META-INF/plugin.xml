@@ -30,6 +30,10 @@
 
   <actions>
     <!-- Add your actions here -->
+    <action id="polifonic.goto.theme_file" class="GotoThemeFile" text="Go to theme file"
+            description="Goes to the theme file of current theme">
+      <add-to-group group-id="GoToMenu" anchor="first"/>
+    </action>
   </actions>
 
 </idea-plugin>
