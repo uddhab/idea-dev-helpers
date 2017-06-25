@@ -1,17 +1,17 @@
 <idea-plugin>
-  <id>com.your.company.unique.plugin.id</id>
-  <name>Plugin display name here</name>
-  <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <id>com.uddhab.company.php.plugin.helper</id>
+  <name>Php developers helper</name>
+  <version>0.1</version>
+  <vendor email="uddhabkshrestha@gmail.com" url="http://www.uddhabks.com.np">Uddhab</vendor>
 
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+      Helps developers of php who uses gemfury while in development.<br>
+      <em>TODO features list</em>
     ]]></description>
 
   <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+      No useful changes.<br>
+      <em>TODO changes list</em>
     ]]>
   </change-notes>
 
