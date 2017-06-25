@@ -11,7 +11,7 @@ public class GotoThemeFile extends AnAction {
         // TODO: insert action logic here
         Project project = e.getData(PlatformDataKeys.PROJECT);
 
-        String txt= Messages.showInputDialog(project, "Theme to use?", "Theme package name", Messages.getQuestionIcon());
+        String txt = Messages.showInputDialog(project, "Theme to use?", "Theme package name", Messages.getQuestionIcon());
         Messages.showMessageDialog(project, "TODO: navigate to the file in theme " + txt + ".", "Navigate", Messages.getInformationIcon());
     }
 }
