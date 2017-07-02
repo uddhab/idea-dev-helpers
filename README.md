@@ -1,7 +1,7 @@
 # idea-dev-helpers
 Idea intellij plugin for PhpStorm to help developers in private Symfony group
 
-## Features
+## Features (TODO)
 
 1. go to polifonic theme file by Ctrl + Click
 1. auto update composer.json to work easily with gemfury
