@@ -26,10 +26,13 @@
 
   <depends>com.jetbrains.twig</depends>
   <depends>com.jetbrains.php</depends>
+  <depends>fr.adrienbrault.idea.symfony2plugin</depends>
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
     <gotoDeclarationHandler implementation="GotoDeclarationExtension" />
+    <completion.contributor language="Twig" implementationClass="TwigTemplateCompletionContributor"/>
+
   </extensions>
 
   <actions>
